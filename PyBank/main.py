@@ -62,11 +62,11 @@ print(f"Average Change: ${round(avg_change,2)}")
 print(f"Greatest increase in profits: {max_increase_month} {max_increase}")
 print(f"Greatest decrease in profits: {max_decrease_month} {max_decrease}")
 
-#Pybank_Output = open("Pybank_Output.txt", "w") as text_file
+#output text file
 with open("Pybank_Output.txt", "w") as textfile:
-    textfile.write("Financial Analysis")
-    textfile.write("-------------------")
-    textfile.write(f"Total months: {dates}")
-    textfile.write(f"Total: {net_profit}")
-    textfile.write(f"Average Change: ${round(avg_change,2)}")
+    textfile.write("Financial Analysis\n")
+    textfile.write("-------------------\\n")
+    textfile.write(f"Total months: {dates}\n")
+    textfile.write(f"Total: {net_profit}\n")
+    textfile.write(f"Average Change: ${round(avg_change,2)}\n")
     textfile.write(f"Greatest decrease in profits: {max_decrease_month} {max_decrease}")
