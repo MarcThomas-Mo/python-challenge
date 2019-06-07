@@ -65,7 +65,7 @@ print(f"Greatest decrease in profits: {max_decrease_month} {max_decrease}")
 #output text file
 with open("Pybank_Output.txt", "w") as textfile:
     textfile.write("Financial Analysis\n")
-    textfile.write("-------------------\\n")
+    textfile.write("-------------------\n")
     textfile.write(f"Total months: {dates}\n")
     textfile.write(f"Total: {net_profit}\n")
     textfile.write(f"Average Change: ${round(avg_change,2)}\n")
