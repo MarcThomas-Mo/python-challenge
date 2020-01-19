@@ -1,5 +1,5 @@
 # python-challenge
-This was a two part exerise using Python to generate electin results from a raw data set and to getting various results given finanical data sets.
+This was a two part exerise using Python to generate election results from a raw data set and to getting various results given finanical data sets.
 
 PyBank was looking at finacials. Results:
 Financial Analysis
